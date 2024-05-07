@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'holdwood': 'Holtwood'
+        'poppins': ['Poppins'],
+        'holdwood': ['Holtwood'],
+        'arvo': ['Arvo'],
       },
       colors: {
-        'primary': '#4F6F52'
+        'primary': '#4F6F52',
+        'secondary': '#D2E3C8'
       }
 
     },
